@@ -1,4 +1,4 @@
-# reactjs-tabbedpane-component....
+# reactjs-tabbedpane-component
 
 > A tabbed pane component using React.js
 
