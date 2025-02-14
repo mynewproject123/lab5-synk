@@ -16,10 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Run Snyk to check for vulnerabilities
-        uses: snyk/actions/node@master
+        uses: synk/actions/node@master
         # continue-on-error: true
         env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          SYNK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
           command: monitor
           
